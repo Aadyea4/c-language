@@ -30,7 +30,7 @@ void ctof()
     scanf("%f" ,&c);
 
     //comp
-    f = c * (9.0 / 5.0) + 32;
+    c = (f - 32.0) * (5.0 / 9.0);
 
     //display 
     printf("\nThe value of %f as fahrenheit is %f" ,c,f);
